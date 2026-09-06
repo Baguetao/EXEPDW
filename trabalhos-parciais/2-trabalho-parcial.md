@@ -379,8 +379,8 @@ Antes de enviar o trabalho, confirme:
 - [✅] Estou trabalhando no meu próprio repositório.
 - [✅] Utilizei o GitHub Codespaces.
 - [✅] Desenvolvi o trabalho na branch `main`.
-- [ ] Realizei o commit das alterações.
-- [ ] Sincronizei as alterações com o GitHub.
+- [✅] Realizei o commit das alterações.
+- [✅] Sincronizei as alterações com o GitHub.
 - [✅] Meu repositório está público.
 
 ### Entidades
@@ -397,22 +397,22 @@ Antes de enviar o trabalho, confirme:
 
 ### `import.sql`
 
-- [ ] Criei o arquivo `import.sql`.
-- [ ] Existem 5 registros de `Categoria`.
-- [ ] Existem 5 registros de `Local`.
-- [ ] Existem 5 registros de `Palestrante`.
-- [ ] Existem 5 registros de `Participante`.
-- [ ] Existem 5 registros de `Evento`.
-- [ ] Existem 5 registros de `Inscricao`.
-- [ ] Os registros respeitam os relacionamentos entre as entidades.
-- [ ] O projeto inicia sem erros relacionados ao `import.sql`.
+- [✅] Criei o arquivo `import.sql`.
+- [✅] Existem 5 registros de `Categoria`.
+- [✅] Existem 5 registros de `Local`.
+- [✅] Existem 5 registros de `Palestrante`.
+- [✅] Existem 5 registros de `Participante`.
+- [✅] Existem 5 registros de `Evento`.
+- [✅] Existem 5 registros de `Inscricao`.
+- [✅] Os registros respeitam os relacionamentos entre as entidades.
+- [✅] O projeto inicia sem erros relacionados ao `import.sql`.
 
 ### Entrega
 
-- [ ] O projeto compila sem erros.
-- [ ] As alterações estão disponíveis no GitHub.
-- [ ] O repositório está público.
-- [ ] Enviei o link correto do meu Fork.
+- [✅] O projeto compila sem erros.
+- [✅] As alterações estão disponíveis no GitHub.
+- [✅] O repositório está público.
+- [✅] Enviei o link correto do meu Fork.
 
 ---
 
