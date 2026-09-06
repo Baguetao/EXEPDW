@@ -375,25 +375,25 @@ Antes de enviar o trabalho, confirme:
 
 ### GitHub e Codespaces
 
-- [ ] Fiz o Fork do projeto-base.
-- [ ] Estou trabalhando no meu próprio repositório.
-- [ ] Utilizei o GitHub Codespaces.
-- [ ] Desenvolvi o trabalho na branch `main`.
+- [✅] Fiz o Fork do projeto-base.
+- [✅] Estou trabalhando no meu próprio repositório.
+- [✅] Utilizei o GitHub Codespaces.
+- [✅] Desenvolvi o trabalho na branch `main`.
 - [ ] Realizei o commit das alterações.
 - [ ] Sincronizei as alterações com o GitHub.
-- [ ] Meu repositório está público.
+- [✅] Meu repositório está público.
 
 ### Entidades
 
-- [ ] Criei a entidade `Evento`.
-- [ ] Criei a entidade `Categoria`.
-- [ ] Criei a entidade `Local`.
-- [ ] Criei a entidade `Palestrante`.
-- [ ] Criei a entidade `Participante`.
-- [ ] Criei a entidade `Inscricao`.
-- [ ] Todos os atributos solicitados foram implementados.
-- [ ] Os relacionamentos foram implementados utilizando JPA.
-- [ ] Utilizei Lombok.
+- [✅] Criei a entidade `Evento`.
+- [✅] Criei a entidade `Categoria`.
+- [✅] Criei a entidade `Local`.
+- [✅] Criei a entidade `Palestrante`.
+- [✅] Criei a entidade `Participante`.
+- [✅] Criei a entidade `Inscricao`.
+- [✅] Todos os atributos solicitados foram implementados.
+- [✅] Os relacionamentos foram implementados utilizando JPA.
+- [✅] Utilizei Lombok.
 
 ### `import.sql`
 
