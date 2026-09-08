@@ -15,15 +15,13 @@ import jakarta.persistence.ManyToOne;
 @Getter
 @Setter
 @Entity
-public class Inscricao {
-     @Id
+public class Cliente1 {
+    @Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private Integer id;
-        private LocalDate dataInscricao;
-        private String status;
+        private String nome;
+        private String email;
+        private String telefone;
 
-        @ManyToOne
-        private Evento evento; 
-        @ManyToOne
-        private Participante participante; 
+
 }

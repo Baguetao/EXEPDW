@@ -15,11 +15,12 @@ import jakarta.persistence.ManyToOne;
 @Getter
 @Setter
 @Entity
-public class Categoria {
-    @Id
+public class Palestrante2 {
+     @Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private Integer id;
+        private String miniBio;
         private String nome;
-        private String descricao;
-    
+        private String email;
+
 }

@@ -15,7 +15,7 @@ import jakarta.persistence.ManyToOne;
 @Getter
 @Setter
 @Entity
-public class Local {
+public class Local2 {
      @Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private Integer id;
