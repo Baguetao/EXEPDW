@@ -1,4 +1,4 @@
-package br.edu.unifio.eventos;
+package br.edu.unifio.eventos.entidades;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,4 +1,4 @@
-package br.edu.unifio.eventos;
+package br.edu.unifio.eventos.entidades;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,11 +15,14 @@ import jakarta.persistence.ManyToOne;
 @Getter
 @Setter
 @Entity
-public class Local2 {
-     @Id
+public class ItemPedido1 {
+    @Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private Integer id;
-        private String nome;
-        private String endereco;
-        private int capacidade;
+        private Integer quantidade;
+        private BigDecimal valorUnitario;
+        
+
+        @ManyToOne
+        private Pedido1 pedido1;
 }

@@ -1,10 +1,12 @@
-package br.edu.unifio.eventos;
+package br.edu.unifio.eventos.entidades;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
+import jakarta.persistence.OneToOne;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,14 +17,15 @@ import jakarta.persistence.ManyToOne;
 @Getter
 @Setter
 @Entity
-public class ItemPedido1 {
+public class Pagamento1 {
     @Id
         @GeneratedValue (strategy = GenerationType.IDENTITY)
         private Integer id;
-        private Integer quantidade;
-        private BigDecimal valorUnitario;
-        
+        private BigDecimal valor;
+        private LocalDateTime data;
+        private String status;
+        private String tipo;
 
-        @ManyToOne
+        @OneToOne
         private Pedido1 pedido1;
-}
+}   
