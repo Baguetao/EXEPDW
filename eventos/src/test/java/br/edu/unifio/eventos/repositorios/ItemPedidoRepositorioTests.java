@@ -111,4 +111,16 @@ public class ItemPedidoRepositorioTests {
 
     }
 
+    @Test
+    public void UpdateItemPedido(){
+
+        ItemPedido1 itempedido = itemPedidoRepositorio.findById(Short.parseShort("1")).orElseThrow();
+
+    
+
+
+    }
+
+
+
 }
