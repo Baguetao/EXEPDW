@@ -22,7 +22,7 @@ public class PedidoRepositorioTests {
     private PedidoRepositorio pedidoRepositorio;
 
     @Test
-    public void deveSalvarUmPedidoNovo() {
+    public void SavePedidoNovo() {
 
         var pedido = new Pedido1();
 

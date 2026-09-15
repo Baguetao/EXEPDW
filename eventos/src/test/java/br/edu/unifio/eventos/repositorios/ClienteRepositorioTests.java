@@ -15,7 +15,7 @@ public class ClienteRepositorioTests {
     private ClienteRepositorio clienteRepositorio;
 
     @Test
-    public void deveSalvarUmClienteNovo() {
+    public void SaveClienteNovo() {
 
         var cliente = new Cliente1();
 

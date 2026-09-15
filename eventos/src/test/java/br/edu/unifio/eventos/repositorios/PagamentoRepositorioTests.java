@@ -26,7 +26,7 @@ public class PagamentoRepositorioTests {
     private ClienteRepositorio clienteRepositorio;
 
     @Test
-    public void deveSalvarUmPagamentoNovo() {
+    public void SavePagamentoNovo() {
 
         var cliente = new Cliente1();
 
