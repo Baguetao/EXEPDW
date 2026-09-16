@@ -11,6 +11,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import br.edu.unifio.eventos.entidades.Cliente1;
 import br.edu.unifio.eventos.entidades.Pedido1;
+import br.edu.unifio.eventos.repositorios.ClienteRepositorio;
+import br.edu.unifio.eventos.repositorios.PedidoRepositorio;
 
 @SpringBootTest
 public class PedidoRepositorioTests {

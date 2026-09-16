@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import br.edu.unifio.eventos.entidades.Cliente1;
+import br.edu.unifio.eventos.repositorios.ClienteRepositorio;
 
 @SpringBootTest
 public class ClienteRepositorioTests {
