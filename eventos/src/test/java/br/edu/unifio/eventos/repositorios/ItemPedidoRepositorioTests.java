@@ -59,7 +59,6 @@ public class ItemPedidoRepositorioTests {
         itemPedidoRepositorio.save(itemPedido);
 
         assertNotNull(itemPedido.getId());
-
     }
     
     @Test
